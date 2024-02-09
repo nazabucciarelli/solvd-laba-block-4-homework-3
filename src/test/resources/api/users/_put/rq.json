@@ -1,0 +1,7 @@
+{
+  <#if firstName??>"firstName": "${firstName}",</#if>
+  <#if lastName??>"lastName": "${lastName}",</#if>
+  <#if email??>"email": "${email}",</#if>
+  <#if phone??>"phone": "${phone}",</#if>
+  <#if gender??>"gender": "${gender}"</#if>
+}

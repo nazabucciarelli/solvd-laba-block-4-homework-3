@@ -1,0 +1,9 @@
+[2024-02-08 07:25:12] [21] [INFO] TEST [Github Tests - validateWrongLoginAttemptTest [L03]] STARTED at [16:25:12 2024-02-08]
+[2024-02-08 07:25:12] [21] [INFO] Starting driver session...
+[2024-02-08 07:25:13] [21] [INFO] Driver session started.
+[2024-02-08 07:25:13] [21] [INFO] INFO: opening url 'https://github.com'
+[2024-02-08 07:25:15] [21] [INFO] PASS: element 'signInButton' is clicked.
+[2024-02-08 07:25:15] [21] [INFO] PASS: keys 'johndoe' are sent to element 'usernameInput'.
+[2024-02-08 07:25:16] [21] [INFO] PASS: keys '487392421' are sent to element 'passwordInput'.
+[2024-02-08 07:25:16] [21] [INFO] PASS: element 'signInButton' is clicked.
+[2024-02-08 07:25:16] [21] [INFO] TEST [Github Tests - validateWrongLoginAttemptTest [L03]] PASSED at [16:25:16 2024-02-08]

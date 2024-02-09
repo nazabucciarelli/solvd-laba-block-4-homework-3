@@ -1,0 +1,18 @@
+[2024-02-08 07:25:01] [22] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-08 07:25:01] [22] [INFO] TEST [Github Tests - verifyRegisterProcessTest] STARTED at [16:25:01 2024-02-08]
+[2024-02-08 07:25:01] [22] [INFO] Starting driver session...
+[2024-02-08 07:25:03] [22] [INFO] Driver session started.
+[2024-02-08 07:25:03] [22] [INFO] INFO: opening url 'https://github.com'
+[2024-02-08 07:25:06] [22] [INFO] PASS: element 'signUpButton' is clicked.
+[2024-02-08 07:25:10] [22] [INFO] PASS: keys 'nazareno@solvd.com' are sent to element 'emailInput'.
+[2024-02-08 07:25:11] [22] [INFO] PASS: element 'emailContinueButton' is clicked.
+[2024-02-08 07:25:11] [22] [INFO] Element button is not detected, i.e. disappeared
+[2024-02-08 07:25:11] [22] [INFO] PASS: keys 'password123NA' are sent to element 'passwordInput'.
+[2024-02-08 07:25:12] [22] [INFO] PASS: element 'passwordContinueButton' is clicked.
+[2024-02-08 07:25:12] [22] [INFO] Element button is not detected, i.e. disappeared
+[2024-02-08 07:25:12] [22] [INFO] PASS: keys 'nazarenoghub' are sent to element 'usernameInput'.
+[2024-02-08 07:25:13] [22] [INFO] PASS: element 'usernameContinueButton' is clicked.
+[2024-02-08 07:25:13] [22] [INFO] Element button is not detected, i.e. disappeared
+[2024-02-08 07:25:13] [22] [INFO] PASS: element 'emailPreferencesContinueButton' is clicked.
+[2024-02-08 07:25:13] [22] [INFO] Element button is not detected, i.e. disappeared
+[2024-02-08 07:25:13] [22] [INFO] TEST [Github Tests - verifyRegisterProcessTest] PASSED at [16:25:13 2024-02-08]

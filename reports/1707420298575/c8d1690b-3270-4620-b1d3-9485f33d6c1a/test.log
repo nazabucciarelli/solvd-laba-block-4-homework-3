@@ -1,0 +1,9 @@
+[2024-02-08 07:25:01] [23] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-08 07:25:01] [23] [INFO] TEST [Github Tests - verifySearchResultsTest] STARTED at [16:25:01 2024-02-08]
+[2024-02-08 07:25:01] [23] [INFO] Starting driver session...
+[2024-02-08 07:25:03] [23] [INFO] Driver session started.
+[2024-02-08 07:25:03] [23] [INFO] INFO: opening url 'https://github.com'
+[2024-02-08 07:25:06] [23] [INFO] PASS: element 'showSearchPopUpButton' is clicked.
+[2024-02-08 07:25:06] [23] [INFO] PASS: keys 'carina-demo' are sent to element 'searchInput'.
+[2024-02-08 07:25:07] [23] [INFO] PASS: element 'resultSearchOption' is clicked.
+[2024-02-08 07:25:12] [23] [INFO] TEST [Github Tests - verifySearchResultsTest] PASSED at [16:25:12 2024-02-08]
