@@ -14,13 +14,13 @@ To fulfill the requirements of the homework I followed the following general ste
  Open config.properties and comment all the properties for other tests and uncomment the section for Android Local
 Mobile and fill in the placeholders.
 
-selenium_url= http://localhost:4723/
-capabilities.platformName = ANDROID
-capabilities.deviceName = we can use any name, such as “device”
-capabilities.udid = run adb devices to see this. It can be rare numbers or letters.
-capabilities.app = path to the app in our local machine or remote url.
-capabilities.platformVersion = version of android.
-capabilities.automationName = uiautomator2
+selenium_url= http://localhost:4723/ \
+capabilities.platformName = ANDROID \
+capabilities.deviceName = we can use any name, such as “device” \
+capabilities.udid = run adb devices to see this. It can be rare numbers or letters. \
+capabilities.app = path to the app in our local machine or remote url. \
+capabilities.platformVersion = version of android. \
+capabilities.automationName = uiautomator2 \
 capabilities.deviceType= phone</li>
 
 
