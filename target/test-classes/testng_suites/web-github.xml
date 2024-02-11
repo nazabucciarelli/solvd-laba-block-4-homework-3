@@ -3,7 +3,7 @@
 
     <test name="Github Tests">
         <classes>
-            <class name="com.solvd.automation.gui.WebGithubTest" />
+            <class name="com.solvd.automation.gui.web.WebGithubTest" />
         </classes>
     </test>
 

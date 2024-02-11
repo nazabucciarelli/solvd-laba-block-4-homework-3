@@ -1,5 +1,7 @@
 com/solvd/automation/api/APIAuthTest.class
-com/solvd/automation/gui/WebGithubTest.class
 com/solvd/automation/api/APIUserTest.class
+com/solvd/automation/gui/mobile/MobileCarinaDemoTest.class
 com/solvd/automation/api/APICartTest.class
+com/solvd/automation/gui/web/WebGithubTest.class
+com/solvd/automation/gui/mobile/MobileSwagLabsTest.class
 com/solvd/automation/api/APIProductTest.class

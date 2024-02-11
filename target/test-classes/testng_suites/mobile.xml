@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Mobile Automated Tests" parallel="methods" thread-count="3">
+
+    <test name="Carina Demo Tests">
+        <classes>
+            <class name="com.solvd.automation.gui.mobile.MobileCarinaDemoTest" />
+        </classes>
+    </test>
+
+    <test name="Swag Labs Tests">
+        <classes>
+            <class name="com.solvd.automation.gui.mobile.MobileSwagLabsTest" />
+        </classes>
+    </test>
+
+</suite>

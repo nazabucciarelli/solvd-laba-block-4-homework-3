@@ -5,10 +5,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>solvd</groupId>
-	<artifactId>web-gui-testing</artifactId>
+	<artifactId>mobile-testing</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-	<name>Test Automation Project for Dummy JSON API</name>
+	<name>Mobile Test Automation Project</name>
 	<url>www.solvd.com</url>
 
 	<properties>

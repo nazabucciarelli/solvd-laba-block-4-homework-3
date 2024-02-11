@@ -1,0 +1,10 @@
+[2024-02-11 10:06:38] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-11 10:06:38] [1] [INFO] TEST [mobile-testing - areThereProductsTest] STARTED at [19:06:38 2024-02-11]
+[2024-02-11 10:06:38] [1] [INFO] Starting driver session...
+[2024-02-11 10:06:39] [1] [ERROR] Failed to attach artifact reference 'app' to test run because it has not been started yet.
+[2024-02-11 10:06:47] [1] [INFO] Driver session started.
+[2024-02-11 10:06:50] [1] [INFO] PASS: keys 'standard_user' are sent to element 'usernameInput'.
+[2024-02-11 10:06:52] [1] [INFO] PASS: keys 'secret_sauce' are sent to element 'passwordInput'.
+[2024-02-11 10:06:53] [1] [INFO] tap on loginButton
+[2024-02-11 10:06:54] [1] [INFO] PASS: Tap on X:'540' Y:'992' was executed.
+[2024-02-11 10:06:56] [1] [INFO] TEST [mobile-testing - areThereProductsTest] PASSED at [19:06:56 2024-02-11]
