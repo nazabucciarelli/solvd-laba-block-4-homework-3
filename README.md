@@ -37,9 +37,7 @@ Some apps need the capability: capability.appActivity to start, so if we have pr
 and add that capability in the config.properties or in Appium inspector.</li>
 
 <li>
-Create the packages structure: gui.project-name  —  common
-|_ ios
-|_ android</li>
+Create the packages structure: gui.project-name and inside, the packages common, ios and android.
 
 <li>
 We need to create abstract classes for pages with the Base postfix and store them in the common package. These abstract
