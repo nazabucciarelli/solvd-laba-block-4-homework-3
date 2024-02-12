@@ -16,13 +16,13 @@ public class MobileSwagLabsTest extends AbstractTest {
     public void webViewPageTest() {
         ProductsPageBase productsPageBase = login("standard_user", "secret_sauce");
         Assert.assertTrue(productsPageBase.getHeader().isMenuButtonPresent(), "The menu button is not present");
-        MenuBase menuBase = productsPageBase.getHeader().tapMenuButton();
+        MenuBase menuBase = productsPageBase.getHeader().clickMenuButton();
         Assert.assertTrue(menuBase.isWebViewButtonPresent(), "The Web View button is not present");
-        SearchWebPageBase searchWebPageBase = menuBase.tapWebViewButton();
+        SearchWebPageBase searchWebPageBase = menuBase.clickWebViewButton();
         Assert.assertTrue(searchWebPageBase.isUrlInputPresent(), "The url input is not present");
         searchWebPageBase.typeUrlInput("www.google.com");
         Assert.assertTrue(searchWebPageBase.isGoToSiteButtonPresent(), "The Go To Site button is not present");
-        searchWebPageBase.tapGoToSiteButton();
+        searchWebPageBase.clickGoToSiteButton();
         Assert.assertTrue(searchWebPageBase.isWebViewPresent(), "The web view is not present");
     }
 
@@ -38,7 +38,7 @@ public class MobileSwagLabsTest extends AbstractTest {
         Assert.assertEquals(username, loginPageBase.getUsernameInputText(), "The username doesn't match");
         loginPageBase.typePassword(password);
         Assert.assertTrue(loginPageBase.isLoginButtonClickable(), "The login button is not clickable.");
-        return loginPageBase.tapLoginButton();
+        return loginPageBase.clickLoginButton();
     }
 
     @Test

@@ -34,8 +34,8 @@ public class LoginPage extends LoginPageBase {
     }
 
     @Override
-    public ProductsPageBase tapLoginButton() {
-        tap(loginButton);
+    public ProductsPageBase clickLoginButton() {
+        loginButton.click();
         return initPage(ProductsPageBase.class);
     }
 

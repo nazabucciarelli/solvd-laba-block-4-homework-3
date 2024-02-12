@@ -24,14 +24,14 @@ public class Header extends HeaderBase implements ICustomTypePageFactory {
     }
 
     @Override
-    public MenuBase tapMenuButton() {
-        tap(menuButton);
+    public MenuBase clickMenuButton() {
+        menuButton.click();
         return new Menu(getDriver());
     }
 
     @Override
-    public ShoppingCartPageBase tapShoppingCartButton() {
-        tap(shoppingCartButton);
+    public ShoppingCartPageBase clickShoppingCartButton() {
+        shoppingCartButton.click();
         return initPage(ShoppingCartPageBase.class);
     }
 

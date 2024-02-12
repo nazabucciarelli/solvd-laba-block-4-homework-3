@@ -11,9 +11,9 @@ public abstract class MenuBase extends AbstractUIObject implements IMobileUtils 
         super(driver);
     }
 
-    public abstract SearchWebPageBase tapWebViewButton();
+    public abstract SearchWebPageBase clickWebViewButton();
 
-    public abstract LoginPageBase tapLogoutButton();
+    public abstract LoginPageBase clickLogoutButton();
 
     public abstract boolean isWebViewButtonPresent();
 }

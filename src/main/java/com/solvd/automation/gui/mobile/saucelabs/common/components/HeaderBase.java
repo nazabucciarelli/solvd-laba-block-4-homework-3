@@ -12,9 +12,9 @@ public abstract class HeaderBase extends AbstractUIObject implements IMobileUtil
         super(driver, searchContext);
     }
 
-    public abstract MenuBase tapMenuButton();
+    public abstract MenuBase clickMenuButton();
 
-    public abstract ShoppingCartPageBase tapShoppingCartButton();
+    public abstract ShoppingCartPageBase clickShoppingCartButton();
 
     public abstract boolean isMenuButtonPresent();
 }

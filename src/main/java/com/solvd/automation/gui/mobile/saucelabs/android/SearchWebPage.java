@@ -40,8 +40,8 @@ public class SearchWebPage extends SearchWebPageBase {
     }
 
     @Override
-    public void tapGoToSiteButton() {
-        tap(goToSiteButton);
+    public void clickGoToSiteButton() {
+        goToSiteButton.click();
         Wait<WebDriver> waiter = new FluentWait<>(driver)
                 .pollingEvery(Duration.ofMillis(200))
                 .withTimeout(Duration.ofSeconds(10L));

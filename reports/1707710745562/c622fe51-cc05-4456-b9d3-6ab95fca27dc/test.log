@@ -46,7 +46,7 @@ com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWeb
 com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1487)
 com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.getLocation(ExtendedWebElement.java:371)
 com.zebrunner.carina.utils.mobile.IMobileUtils.tap(IMobileUtils.java:130)
-com.solvd.automation.gui.mobile.carinademo.android.UIElementsPage.tapRadioButtonOther(UIElementsPage.java:83)
+com.solvd.automation.gui.mobile.carinademo.android.MobileElementsPage.tapRadioButtonOther(UIElementsPage.java:83)
 com.solvd.automation.gui.mobile.MobileCarinaDemoTest.uiElementsPageTest(MobileCarinaDemoTest.java:44)
 java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 java.base/java.lang.reflect.Method.invoke(Method.java:580)

@@ -14,11 +14,11 @@ public abstract class SignUpPageBase extends AbstractPage implements IMobileUtil
 
     public abstract void typePasswordInput(String text);
 
-    public abstract void tapRadioMale();
+    public abstract void clickRadioMale();
 
-    public abstract void tapRadioFemale();
+    public abstract void clickRadioFemale();
 
-    public abstract void tapSwitchPrivacyPolicy();
+    public abstract void clickSwitchPrivacyPolicy();
 
     public abstract HomePageBase tapSignUpButton();
 

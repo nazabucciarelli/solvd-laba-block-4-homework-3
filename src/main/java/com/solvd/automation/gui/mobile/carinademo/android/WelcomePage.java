@@ -18,8 +18,8 @@ public class WelcomePage extends WelcomePageBase {
     }
 
     @Override
-    public SignUpPageBase tapNextButton() {
-        tap(nextButton);
+    public SignUpPageBase clickNextButton() {
+        nextButton.click();
         return initPage(getDriver(), SignUpPageBase.class);
     }
 

@@ -1,0 +1,4 @@
+[2024-02-12 06:26:29] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-12 06:26:29] [1] [INFO] TEST [mobile-testing - uiElementsPageTest] STARTED at [15:26:29 2024-02-12]
+[2024-02-12 06:26:29] [1] [INFO] Starting driver session...
+[2024-02-12 06:26:31] [1] [ERROR] Failed to attach artifact reference 'app' to test run because it has not been started yet.

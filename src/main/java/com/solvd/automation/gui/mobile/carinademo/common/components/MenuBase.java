@@ -1,6 +1,6 @@
 package com.solvd.automation.gui.mobile.carinademo.common.components;
 
-import com.solvd.automation.gui.mobile.carinademo.common.UIElementsPageBase;
+import com.solvd.automation.gui.mobile.carinademo.common.MobileElementsPageBase;
 import com.zebrunner.carina.webdriver.gui.AbstractUIObject;
 import org.openqa.selenium.WebDriver;
 
@@ -9,7 +9,7 @@ public abstract class MenuBase extends AbstractUIObject {
         super(driver);
     }
 
-    public abstract UIElementsPageBase tapUIElementsButton();
+    public abstract MobileElementsPageBase clickMobileElementsMenuButton();
 
-    public abstract boolean isUIElementsButtonPresent();
+    public abstract boolean isMobileElementsMenuButtonPresent();
 }

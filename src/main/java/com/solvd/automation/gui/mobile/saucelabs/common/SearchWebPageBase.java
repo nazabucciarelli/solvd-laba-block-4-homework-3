@@ -7,7 +7,7 @@ public abstract class SearchWebPageBase extends AbstractPageBase {
         super(driver);
     }
 
-    public abstract void tapGoToSiteButton();
+    public abstract void clickGoToSiteButton();
 
     public abstract void typeUrlInput(String url);
 

@@ -1,6 +1,6 @@
 package com.solvd.automation.gui.mobile.carinademo.android.components;
 
-import com.solvd.automation.gui.mobile.carinademo.common.UIElementsPageBase;
+import com.solvd.automation.gui.mobile.carinademo.common.MobileElementsPageBase;
 import com.solvd.automation.gui.mobile.carinademo.common.components.MenuBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.utils.factory.ICustomTypePageFactory;
@@ -13,20 +13,20 @@ public class Menu extends MenuBase implements ICustomTypePageFactory {
 
     @FindBy(xpath = "//android.support.v7.widget.RecyclerView[@resource-id=\"com.solvd.carinademoapplication" +
             ":id/design_navigation_view\"]/android.support.v7.widget.LinearLayoutCompat[4]")
-    private ExtendedWebElement UIElementsButton;
+    private ExtendedWebElement mobileElementsMenuButton;
 
     public Menu(WebDriver driver) {
         super(driver);
     }
 
     @Override
-    public UIElementsPageBase tapUIElementsButton() {
-        UIElementsButton.click();
-        return initPage(UIElementsPageBase.class);
+    public MobileElementsPageBase clickMobileElementsMenuButton() {
+        mobileElementsMenuButton.click();
+        return initPage(MobileElementsPageBase.class);
     }
 
     @Override
-    public boolean isUIElementsButtonPresent() {
-        return UIElementsButton.isPresent();
+    public boolean isMobileElementsMenuButtonPresent() {
+        return mobileElementsMenuButton.isPresent();
     }
 }

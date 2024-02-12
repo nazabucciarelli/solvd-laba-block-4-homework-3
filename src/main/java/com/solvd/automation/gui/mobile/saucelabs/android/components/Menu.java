@@ -23,14 +23,14 @@ public class Menu extends MenuBase implements ICustomTypePageFactory {
     }
 
     @Override
-    public SearchWebPageBase tapWebViewButton() {
-        tap(webViewButton);
+    public SearchWebPageBase clickWebViewButton() {
+        webViewButton.click();
         return initPage(SearchWebPageBase.class);
     }
 
     @Override
-    public LoginPageBase tapLogoutButton() {
-        tap(logoutButton);
+    public LoginPageBase clickLogoutButton() {
+        logoutButton.click();
         return initPage(LoginPageBase.class);
     }
 

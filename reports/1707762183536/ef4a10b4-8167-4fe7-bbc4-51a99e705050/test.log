@@ -1,0 +1,70 @@
+[2024-02-12 06:23:06] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-12 06:23:06] [1] [INFO] TEST [mobile-testing - uiElementsPageTest] STARTED at [15:23:06 2024-02-12]
+[2024-02-12 06:23:06] [1] [INFO] Starting driver session...
+[2024-02-12 06:23:07] [1] [ERROR] Failed to attach artifact reference 'app' to test run because it has not been started yet.
+[2024-02-12 06:23:15] [1] [INFO] Driver session started.
+[2024-02-12 06:23:16] [1] [INFO] PASS: element 'nextButton' is clicked.
+[2024-02-12 06:23:20] [1] [INFO] PASS: keys 'rick' are sent to element 'nameInput'.
+[2024-02-12 06:23:22] [1] [INFO] PASS: keys 'password' are sent to element 'passwordInput'.
+[2024-02-12 06:23:23] [1] [INFO] PASS: element 'radioFemale' is clicked.
+[2024-02-12 06:23:24] [1] [INFO] PASS: element 'radioMale' is clicked.
+[2024-02-12 06:23:25] [1] [INFO] PASS: element 'switchPrivacyPolicy' is clicked.
+[2024-02-12 06:23:26] [1] [INFO] tap on signUpButton
+[2024-02-12 06:23:27] [1] [INFO] PASS: Tap on X:'539' Y:'2003' was executed.
+[2024-02-12 06:23:34] [1] [INFO] PASS: element 'menuButton' is clicked.
+[2024-02-12 06:23:35] [1] [INFO] PASS: element 'mobileElementsMenuButton' is clicked.
+[2024-02-12 06:23:39] [1] [INFO] PASS: keys 'Hello from Java!' are sent to element 'textInput'.
+[2024-02-12 06:23:40] [1] [INFO] PASS: keys 'nazareno@solvd.com' are sent to element 'emailInput'.
+[2024-02-12 06:23:42] [1] [INFO] PASS: keys '10/01/2024' are sent to element 'dateInput'.
+[2024-02-12 06:23:42] [1] [INFO] Swipe down will be executed.
+[2024-02-12 06:23:42] [1] [ERROR] Error during Swipe from (X = 540; Y = 555) to (X = 540; Y = 1110): org.openqa.selenium.InvalidArgumentException: java.lang.IllegalArgumentException: pointerCount must be at least 1
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-17-generic', java.version: '21.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [92cedab1-6a28-4a5e-9432-d6225dce169e, actions {actions=[org.openqa.selenium.interactions.Sequence@5d4ece5]}]
+Capabilities {appium:app: https://qaprosoft.s3-us-wes..., appium:appPackage: com.solvd.carinademoapplica..., appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: https://qaprosoft.s3-us-wes..., automationName: uiautomator2, deviceName: device, deviceType: phone, language: en, locale: US, platformName: android, platformVersion: 14.0, udid: emulator-5554}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceType: phone, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:language: en, appium:locale: US, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 14, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 92cedab1-6a28-4a5e-9432-d6225dce169e
+[2024-02-12 06:23:48] [1] [ERROR] TEST [mobile-testing - uiElementsPageTest] FAILED at [15:23:48 2024-02-12] - no such element By.id: checkBox2
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-17-generic', java.version: '21.0.1'
+Driver info: driver.version: unknown
+
+com.zebrunner.carina.webdriver.locator.ExtendedElementLocator.findElement(ExtendedElementLocator.java:157)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+jdk.proxy2/jdk.proxy2.$Proxy91.click(Unknown Source)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement$3.doClick(ExtendedWebElement.java:1537)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1397)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1531)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1510)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1487)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:416)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:406)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:397)
+com.solvd.automation.gui.mobile.carinademo.android.MobileElementsPage.clickCopyCheckBox(MobileElementsPage.java:67)
+com.solvd.automation.gui.mobile.MobileCarinaDemoTest.uiElementsPageTest(MobileCarinaDemoTest.java:39)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)

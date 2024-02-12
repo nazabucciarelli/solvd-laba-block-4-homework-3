@@ -20,7 +20,7 @@ public class Header extends HeaderBase {
 
     @Override
     public MenuBase tapMenuButton() {
-        tap(menuButton);
+        menuButton.click();
         return new Menu(getDriver());
     }
 

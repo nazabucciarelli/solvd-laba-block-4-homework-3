@@ -9,7 +9,7 @@ public abstract class WelcomePageBase extends AbstractPage implements IMobileUti
         super(driver);
     }
 
-    public abstract SignUpPageBase tapNextButton();
+    public abstract SignUpPageBase clickNextButton();
 
     public abstract boolean isNextButtonPresent();
 }

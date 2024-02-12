@@ -13,7 +13,7 @@ public abstract class LoginPageBase extends AbstractPage implements IMobileUtils
 
     public abstract void typePassword(String text);
 
-    public abstract ProductsPageBase tapLoginButton();
+    public abstract ProductsPageBase clickLoginButton();
 
     public abstract String getUsernameInputText();
 

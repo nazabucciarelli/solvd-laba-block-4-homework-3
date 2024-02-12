@@ -79,17 +79,17 @@ public class SignUpPage extends SignUpPageBase {
     }
 
     @Override
-    public void tapRadioMale() {
-        tap(radioMale);
+    public void clickRadioMale() {
+        radioMale.click();
     }
 
     @Override
-    public void tapRadioFemale() {
-        tap(radioFemale);
+    public void clickRadioFemale() {
+        radioFemale.click();
     }
 
     @Override
-    public void tapSwitchPrivacyPolicy() {
-        tap(switchPrivacyPolicy);
+    public void clickSwitchPrivacyPolicy() {
+        switchPrivacyPolicy.click();
     }
 }
