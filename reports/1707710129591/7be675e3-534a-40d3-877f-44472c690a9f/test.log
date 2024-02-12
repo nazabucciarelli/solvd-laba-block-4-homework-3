@@ -1,0 +1,5 @@
+[2024-02-12 03:56:26] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-12 03:56:26] [1] [INFO] TEST [mobile-testing - loginTest] STARTED at [00:56:26 2024-02-12]
+[2024-02-12 03:56:26] [1] [INFO] Starting driver session...
+[2024-02-12 03:56:36] [1] [INFO] Driver session started.
+[2024-02-12 03:56:41] [1] [INFO] PASS: keys 'standard_user' are sent to element 'usernameInput'.

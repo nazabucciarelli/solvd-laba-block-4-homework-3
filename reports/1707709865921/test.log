@@ -1,0 +1,25 @@
+[2024-02-12 03:51:05] [1] [INFO] 
+=========== WebDriver configuration ===========
+selenium_url=http://localhost:4723/
+-------------- Driver capabilities ------------
+appActivity=com.swaglabsmobileapp.MainActivity
+app=/home/nazareno/dev/test-automation-course/saucelabs.apk/saucelabs.apk
+deviceType=phone
+platformVersion=14.0
+automationName=uiautomator2
+platformName=ANDROID
+udid=emulator-5554
+deviceName=device
+===============================================
+
+[2024-02-12 03:51:06] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-12 03:51:09] [1] [INFO] [TestNG] Running:
+  /home/nazareno/.cache/JetBrains/IntelliJIdea2023.3/temp-testng-customsuite.xml
+
+[2024-02-12 03:51:09] [1] [INFO] Set thread-count=1
+[2024-02-12 03:51:09] [1] [INFO] Set data-provider-thread-count=1
+[2024-02-12 03:51:09] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2024-02-12 03:51:45] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-02-12 03:51:45] [1] [INFO] RESULT #1: TEST [mobile-testing - areThereProductsTest] FAIL [log=file:///home/nazareno/dev/test-automation-course/mobile-testing/./reports/1707709865921/f37fd57c-7b9b-4193-b5e7-b21bfe9906df/test.log]
+[2024-02-12 03:51:45] [1] [INFO] RESULT #2: TEST [mobile-testing - loginTest] FAIL [log=file:///home/nazareno/dev/test-automation-course/mobile-testing/./reports/1707709865921/ab52d014-57f4-4a25-af33-cadcf6e51239/test.log]
+[2024-02-12 03:51:45] [1] [INFO] RESULT #3: TEST [mobile-testing - webViewPageTest] FAIL [log=file:///home/nazareno/dev/test-automation-course/mobile-testing/./reports/1707709865921/3fdad55e-96c4-414f-a641-88416f6807fc/test.log]

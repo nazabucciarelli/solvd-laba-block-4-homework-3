@@ -39,6 +39,6 @@ public class ProductsPage extends ProductsPageBase {
                 withTimeout(Duration.ofSeconds(5))
                 .pollingEvery(Duration.ofMillis(500));
         waiter.until(webDriver -> !products.isEmpty());
-        return true;
+        return false;
     }
 }

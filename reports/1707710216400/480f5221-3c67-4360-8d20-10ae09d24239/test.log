@@ -1,0 +1,16 @@
+[2024-02-12 03:57:42] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-12 03:57:42] [1] [INFO] TEST [mobile-testing - webViewPageTest] STARTED at [00:57:42 2024-02-12]
+[2024-02-12 03:57:42] [1] [INFO] Starting driver session...
+[2024-02-12 03:57:50] [1] [INFO] Driver session started.
+[2024-02-12 03:57:54] [1] [INFO] PASS: keys 'standard_user' are sent to element 'usernameInput'.
+[2024-02-12 03:57:56] [1] [INFO] PASS: keys 'secret_sauce' are sent to element 'passwordInput'.
+[2024-02-12 03:57:56] [1] [INFO] tap on loginButton
+[2024-02-12 03:57:58] [1] [INFO] PASS: Tap on X:'540' Y:'992' was executed.
+[2024-02-12 03:58:00] [1] [INFO] tap on menuButton
+[2024-02-12 03:58:03] [1] [INFO] PASS: Tap on X:'83' Y:'134' was executed.
+[2024-02-12 03:58:05] [1] [INFO] tap on webViewButton
+[2024-02-12 03:58:07] [1] [INFO] PASS: Tap on X:'540' Y:'508' was executed.
+[2024-02-12 03:58:10] [1] [INFO] PASS: keys 'www.google.com' are sent to element 'urlInput'.
+[2024-02-12 03:58:11] [1] [INFO] tap on goToSiteButton
+[2024-02-12 03:58:12] [1] [INFO] PASS: Tap on X:'540' Y:'1112' was executed.
+[2024-02-12 03:58:18] [1] [INFO] TEST [mobile-testing - webViewPageTest] PASSED at [00:58:18 2024-02-12]

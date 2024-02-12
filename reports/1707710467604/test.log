@@ -1,0 +1,23 @@
+[2024-02-12 04:01:07] [1] [INFO] 
+=========== WebDriver configuration ===========
+selenium_url=http://localhost:4723/
+-------------- Driver capabilities ------------
+app=https://qaprosoft.s3-us-west-2.amazonaws.com/carinademoexample.apk
+deviceType=phone
+platformVersion=14.0
+automationName=uiautomator2
+platformName=ANDROID
+udid=emulator-5554
+deviceName=device
+===============================================
+
+[2024-02-12 04:01:07] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-12 04:01:11] [1] [INFO] [TestNG] Running:
+  /home/nazareno/.cache/JetBrains/IntelliJIdea2023.3/temp-testng-customsuite.xml
+
+[2024-02-12 04:01:11] [1] [INFO] Set thread-count=1
+[2024-02-12 04:01:11] [1] [INFO] Set data-provider-thread-count=1
+[2024-02-12 04:01:11] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2024-02-12 04:02:34] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-02-12 04:02:34] [1] [INFO] RESULT #1: TEST [mobile-testing - loginTest] PASS [log=file:///home/nazareno/dev/test-automation-course/mobile-testing/./reports/1707710467604/90f7cf22-7126-4daa-93e7-9100675606e5/test.log]
+[2024-02-12 04:02:34] [1] [INFO] RESULT #2: TEST [mobile-testing - uiElementsPageTest] PASS [log=file:///home/nazareno/dev/test-automation-course/mobile-testing/./reports/1707710467604/fcfdecc3-6e90-4f0c-b06e-972578fc3cf8/test.log]

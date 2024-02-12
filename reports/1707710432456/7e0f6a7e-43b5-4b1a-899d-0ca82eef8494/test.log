@@ -1,0 +1,5 @@
+[2024-02-12 04:00:35] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-12 04:00:35] [1] [INFO] TEST [mobile-testing - loginTest] STARTED at [01:00:35 2024-02-12]
+[2024-02-12 04:00:35] [1] [INFO] Starting driver session...
+[2024-02-12 04:00:36] [1] [ERROR] Failed to attach artifact reference 'app' to test run because it has not been started yet.
+[2024-02-12 04:00:42] [1] [INFO] Driver session started.
